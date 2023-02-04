@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chrisvzrands:war">
+    <output-path>$PROJECT_DIR$/crmProject/crmbackend/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>chrisvzrands</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="chrisvzrands-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="chrisvzrands:war exploded" />
+    </root>
+  </artifact>
+</component>
